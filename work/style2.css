@@ -1,0 +1,174 @@
+•	{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+Body {
+    Font-family: Arial, sans-serif;
+    Background: #111;
+    Color: white;
+}
+
+Header {
+    Background: #050505;
+    Padding: 20px 8%;
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Color: #ff00cc;
+    Letter-spacing: 3px;
+}
+
+Nav a {
+    Color: white;
+    Text-decoration: none;
+    Margin-left: 25px;
+    position: sticky;
+}
+
+Nav a:hover {
+    Color: #ff00cc;
+}
+
+/* HOME */
+
+.hero {
+    Height: 80vh;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Text-align: center;
+
+    Background:
+    Linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("dj.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    Font-size: 70px;
+    Color: #ff00cc;
+}
+
+.hero p {
+    Font-size: 20px;
+    Margin: 20px;
+}
+
+.button {
+    Display: inline-block;
+    Padding: 14px 30px;
+    Background: #ff00cc;
+    Color: white;
+    Text-decoration: none;
+    Border-radius: 5px;
+}
+
+.welcome {
+    Text-align: center;
+    Padding: 70px 15%;
+}
+
+.welcome h2 {
+    Color: #ff00cc;
+    Margin-bottom: 20px;
+}
+/* OTHER PAGES */
+
+.page {
+    Min-height: 75vh;
+    Padding: 70px 10%;
+    Text-align: center;
+}
+
+.page h2 {
+    Color: #ff00cc;
+    Font-size: 40px;
+    Margin-bottom: 30px;
+}
+
+.page > p {
+    Max-width: 700px;
+    Margin: auto;
+    Line-height: 1.8;
+}
+
+.cards,
+.events {
+    Display: flex;
+    Justify-content: center;
+    Gap: 25px;
+    Margin-top: 50px;
+    Flex-wrap: wrap;
+}
+
+
+
+/* FORM */
+
+Form {
+    Max-width: 600px;
+    Margin: auto;
+}
+
+Input,
+Textarea {
+    Width: 100%;
+    Padding: 15px;
+    Margin: 10px 0;
+    Background: #202020;
+    Color: white;
+    Border: 1px solid #444;
+    Border-radius: 5px;
+}
+
+Textarea {
+    Height: 150px;
+}
+
+Button {
+    Padding: 15px 35px;
+    Background: #ff00cc;
+    Color: white;
+    Border: none;
+    Border-radius: 5px;
+    Cursor: pointer;
+}
+
+.contact-info {
+    Margin-top: 40px;
+    Line-height: 2;
+}
+
+/* FOOTER */
+
+Footer {
+    Background: #050505;
+    Text-align: center;
+    Padding: 25px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    Header {
+        Flex-direction: column;
+        Gap: 20px;
+    }
+
+    Nav a {
+        Margin: 5px;
+        Font-size: 14px;
+    }
+
+    .hero h2 {
+        Font-size: 45px;
+    }
+}

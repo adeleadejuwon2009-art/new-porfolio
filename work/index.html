@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENT</title>
+</head>
+<body>
+   <h1>main heading</h1>
+   <h2>sub heading</h2>
+   <h3>section heading</h3>
+   <h4>sub section heading</h4>
+   <h5>minor heading</h5>
+   <h6>smallest heading</h6>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ratione adipisci perferendis quas repudiandae corporis aliquid illum soluta assumenda maxime ea earum voluptate nam porro quae deserunt magnam doloribus, sint incidunt error explicabo eos dolore molestias. Voluptates sint veniam nisi ducimus provident unde, magnam non a natus fugit vero rerum in itaque reiciendis distinctio deleniti numquam ipsa dolore odit accusantium totam atque soluta ex. Inventore necessitatibus minus quidem, quas ea ratione aliquid excepturi? Velit itaque dolor quae voluptate rem odio quod dolorem necessitatibus sed est? Officiis exercitationem, molestiae distinctio quisquam laudantium harum? Quam corporis ratione libero laudantium soluta repudiandae fuga!
+</p>
+<br/>break line
+<hr/>horizontal line
+
+<!-- text style -->
+<strong>bold text</strong><br>
+<b>bold text(visual only)</b><br>
+<em>Emphasis text</em><br>
+<i>italic text</i>
+<mark>highligheted text</mark>
+<h1>10<sub>2</sub></h1>
+<h1>10<sup>2</sup></h1>
+
+<pre>
+    hello word                  how is the learning going
+    it going well       ,and what about you?     
+    <code>const addsum=()=>{
+        return console.log("hello world")
+    }</code>
+  </pre>
+ <!-- link and navigation -->
+  <!-- anchor link  -->
+
+ <!-- extrnal link -->
+ <a href="https://www.jumia.com.ng/" target="_blank">official jumia website</a>
+
+ <!-- internal link -->
+ <a href="./home.html">official home page</a>
+ <!-- email link -->
+<a href="mailto:femi@gmail.com">send mail</a>
+<!-- phone link -->
+<a href="tel:+2370464071">call us</a>
+<!-- section link -->
+<a href="#section-id">go to section</a>
+<a href="#section-id-2">go to section2</a>
+<!-- download file -->
+<a href="wikipedia.com">download wikipedia</a>
+
+<p id="section-id">section 1</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus aliquam dolorum fugit ipsa minima sint corporis voluptatibus quae cum. Rerum magnam voluptatibus hic nostrum sapiente distinctio ratione sed dolorem enim quasi culpa numquam tenetur totam nisi dolore harum vero voluptatem, dignissimos aspernatur eveniet earum porro odit! Officia perferendis asperiores cum necessitatibus reprehenderit, quasi laborum nesciunt maxime nemo dolor ipsa. Quaerat saepe reprehenderit, incidunt, voluptatibus praesentium odit natus ipsam at blanditiis optio eius labore, dicta esse ea cum eveniet ab?</p>
+<p id="section-id-2">section 2</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe libero modi fugiat voluptas nam ab aliquam reprehenderit, eum mollitia distinctio laborum praesentium, cum odit minus necessitatibus eius illum quae itaque officia aperiam labore. Eum expedita nemo, corrupti nesciunt culpa voluptas modi ipsum! Soluta atque quis incidunt maxime ipsa nostrum ex, eveniet ea accusamus esse velit totam reprehenderit rem consequatur, fugit in minima expedita possimus suscipit aperiam nihil? Temporibus veniam perspiciatis inventore deleniti debitis, repellat totam perferendis! Omnis, dolor quisquam. Quisquam vitae autem dignissimos vel quas id illum sit odit soluta!</p>
+<!-- image and media -->
+<img src="./image/J0101856.BMP" alt="loading" width="300" height="300">
+
+<picture>
+ <source media="(min-width:1200px)" scrset="./image/PH01035U.BMP">
+ <source media="(max-width:800px)" scrset="./image/PH02040U.BMP">
+ <img scr="./image/J0101863.BMP">
+ </picture>
+ <!-- Audio and video -->
+<audio src="./image/Davido-Amazing-Grace-www.naijawide.net_.mp3"controls loop></audio>
+  <video src="./image/istockphoto-1323816323-640_adpp_is.mp4" autoplay></video>
+<!-- table -->
+<table border="1">
+ <thead>
+    <tr>
+        <th>NAME</th>
+        <th>Job Title</th>
+        <th>Email Address</th>
+     </tr>
+     </thead>
+ <tbody>
+    <tr>
+ <td>Alex</td>
+ <td>Softwarde Developer</td>
+ <td>Software@gamil.com</td>
+ </tr>
+ 
+ <tr>
+<td>john</td>
+<td>UI/UX Developer</td>
+<td>ui@gmail.com</td>
+ </tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Lorem ipsum dolor sit amet</td>
+<td>Lorem ipsum dolor sit amet</td>
+</tr>
+</tfoot>
+</table>
+   <h1>STUDENT REGISTRATION FORM</h1>
+  <form action="#" method="post">
+        <div style="display: flex; gap: 40px;">
+        <div>   
+
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+        <br/>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" placeholder="Enter your age">
+        <br><br>
+
+        <label>Gender:</label><br/>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br/>
+   <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br/>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        <br/>
+                <label for="department">Department:</label>
+        <select id="department" name="department">
+            <option value="">Select Department</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="accounting">Accounting</option>
+            <option value="business">Business Administration</option>
+            <option value="engineering">Engineering</option>
+            <option value="mass-communication">Mass Communication</option>
+        </select>
+        <br/>
+<label for="level">Level:</label>
+        <select id="level" name="level">
+            <option value="">Select Level</option>
+            <option value="100">100 Level</option>
+            <option value="200">200 Level</option>
+            <option value="300">300 Level</option>
+            <option value="400">400 Level</option>
+        </select>
+        <br/>
+          <br><br>
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+        <!-- details and summary -->
+        <details>
+            <summary>what do you sell</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt eius delectus! Ea tempore deleniti doloribus iste nesciunt sequi? Aliquam, quasi odio saepe deleniti mollitia quam, debitis id iusto qui facere, repudiandae aliquid facilis quisquam aut doloribus ratione doloremque molestiae enim. Magnam soluta alias similique necessitatibus animi qui facere odit officiis repellendus placeat. Placeat nihil sed veniam, laboriosam ullam dicta odio hic culpa nesciunt error nisi eligendi sint qui quos harum, expedita earum. Obcaecati nihil, minus dolor atque sint est odit, vel fugit odio cum assumenda nesciunt amet nam repellat impedit eaque, laboriosam distinctio sed. Debitis accusamus vel maxime voluptatibus
+            </p>
+        </details>
+        <details>
+            <summary>what is your name</summary>
+            <p>my name is adele adejuwon</p>
+        </details>
+        <details>
+            <summary>what is your age</summary>
+            <p>17</p>
+        </details>
+            <details>
+                <summary>what is your favourite food</summary>
+                <p>rice and stew</p>
+            </details>
+            <marquee behaviour="smooth" direction="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id voluptatum delectus molestiae error similique cumque ad, nihil reiciendis voluptatibus.</marquee>
+           
+             <!-- how to put css -->
+              <!--  inline
+              internal
+              external -->
+              internal:<h1 style="color:blue; border:2px solid blue;">hello world</h1>
+            <!-- external: <link rel="stylesheet" href="./style.css"> -->
+            inline: <style>
+              h1{
+                color:red;
+                border:2px solid blue;
+               }
+            </style>
+            <!-- how to target the element style in CSS -->
+             <!-- -class Name =.
+             -element tag= h1
+             -id Name= #style
+             -type=[type="text"] -->
+             <!-- how to use class Name -->
+             <h1 class="heading">hello matthew</h1>
+             use . in CSS
+             <!-- how to use element tag -->
+             <h1 style="color:blue; border:2px solid blue;">hello world</h1>
+             <!-- how to use type  -->
+             <form action="">
+                <input type="text">
+                <input type="email">
+                <input type="password">
+             </form>
+             <!-- the box model -->
+              <div> it is used to group elements together</div>
+      <div class="box">
+              <img src="./image/J0099166.JPG" alt="loading" width="300px" height="300px">
+            <!-- like class model -->
+              </div>
+              <!-- Typography and text -->
+             <h1 class="text">Hello emmanuel</h1>
+             <div></div>
+             <div class="container">
+                <div class="logo">
+                 logo
+                </div>
+                <div class="links">
+                 links
+                </div>
+                <div class="links">
+                 links
+                </div>
+                <div class="links">
+                 links
+                </div>
+             </div>
+             
+
+
+</body>
+</html> 
+
+
+
