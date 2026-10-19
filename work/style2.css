@@ -1,13 +1,20 @@
 •	{
-    Margin: 0;
-    Padding: 0;
-    Box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    top: 0;
+    left: 0;
 }
 
 Body {
     Font-family: Arial, sans-serif;
     Background: #111;
     Color: white;
+    /* text-align:justify; */
 }
 
 Header {
@@ -24,10 +31,13 @@ Header h1 {
 }
 
 Nav a {
-    Color: white;
+     Color: white;
     Text-decoration: none;
     Margin-left: 25px;
     position: sticky;
+    width: 100%; 
+    position: sticky;
+     
 }
 
 Nav a:hover {
@@ -84,7 +94,7 @@ Nav a:hover {
 .page {
     Min-height: 75vh;
     Padding: 70px 10%;
-    Text-align: center;
+    text-align:center;
 }
 
 .page h2 {
@@ -125,7 +135,7 @@ Textarea {
     Background: #202020;
     Color: white;
     Border: 1px solid #444;
-    Border-radius: 5px;
+    Border-radius: 50px;
 }
 
 Textarea {

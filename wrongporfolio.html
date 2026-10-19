@@ -211,5 +211,113 @@ My resume
         </p>
 
     </footer>
+    @media screen and (max-width: 768px) {
+nav {
+flex-wrap: wrap;
+gap: 15px;
+padding: 12px 20px;
+}
+nav ul {
+flex-wrap: wrap;
+justify-content: center;
+gap: 12px 20px;
+}
+.hero {
+min-height: auto;
+padding: 60px 24px;
+flex-direction: column;
+gap: 40px;
+}
+.hero-text,
+.hero-image,
+.services,
+.about-content,
+.project-info,
+.project-image,
+.contact-text,
+.contact-form {
+width: 100%;
+}
+.hero h1 {
+font-size: 32px;
+}
+.buttons,
+.project-links {
+justify-content: center;
+flex-wrap: wrap;
+}
+.circle {
+width: min(300px, 75vw);
+height: min(300px, 75vw);
+}
+.skills {
+flex-wrap: wrap;
+justify-content: center;
+gap: 16px 24px;
+}
+.about {
+padding: 60px 24px;
+flex-direction: column;
+gap: 35px;
+}
+.stats {
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+.projects-title {
+margin-bottom: 35px;
+}
+.project,
+.project:nth-child(odd) {
+padding: 40px 24px;
+margin-bottom: 30px;
+flex-direction: column;
+gap: 30px;
+}
+.project-image {
+height: 220px;
+}
+.contact {
+padding: 60px 24px;
+flex-direction: column;
+gap: 40px;
+}
+.contact-text h1 {
+font-size: 36px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.hero {
+padding: 45px 18px;
+}
+.hello {
+font-size: 26px;
+}
+.intro {
+font-size: 23px;
+}
+.hero h1 {
+font-size: 28px;
+}
+.about,
+.project,
+.project:nth-child(odd),
+.contact {
+padding-left: 18px;
+padding-right: 18px;
+}
+.section-title,
+.projects-title {
+font-size: 28px;
+}
+.stats {
+gap: 20px;
+}
+.contact-text h1 {
+font-size: 32px;
+}
+}
 </body>
 </html>
